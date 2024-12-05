@@ -1,24 +1,25 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 function Navbar() {
   return (
     <div>
-        <nav className='flex justify-center bg-opacity-5 p-6 bg-transparent'>
-            <Link href={"/page"} className='m-4'>
+        <nav className='flex justify-center text-white backdrop-blur-sm bg-opacity-30 p-6 rounded-bl-3xl rounded-br-3xl overflow-hidden'>
+            <a href="/" className='m-4 '>
                 Home
-            </Link>
-            <Link href={"/About"} className='m-4'>
+            </a>
+            <Link href="/about" className='m-4'>
                 About
             </Link>
-            <Link href={"/Cars"} className='m-4'>
+            <Link href="/cars" className='m-4'>
                 Cars
             </Link>
-            <Link href={"/Gallery"} className='m-4'>
+            <Link href="/gallery" className='m-4'>
                 Gallery
             </Link>
-            <Link href={"/login"} className='m-4'>
-                login
+            <Link href="/login" className='m-4'>
+                Login
             </Link>
         </nav>
     </div>
