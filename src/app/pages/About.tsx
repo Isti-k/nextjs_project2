@@ -1,7 +1,8 @@
-import React from 'react'
-import Navbar from '../componens/Navbar'
+import React from 'react';
+import Navbar from '../componens/Navbar';
 
-function About() {
+
+export default function About() {
   return (
     <div>
       <head>
@@ -13,5 +14,3 @@ function About() {
     </div>
   )
 }
-
-export default About

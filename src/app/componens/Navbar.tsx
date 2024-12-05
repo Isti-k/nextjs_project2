@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <div>
         <nav className='flex justify-center text-white backdrop-blur-sm bg-opacity-30 p-6 rounded-bl-3xl rounded-br-3xl overflow-hidden'>
-            <a href="/" className='m-4 '>
+            <Link href="/" className='m-4 '>
                 Home
-            </a>
+            </Link>
             <Link href="/about" className='m-4'>
                 About
             </Link>
