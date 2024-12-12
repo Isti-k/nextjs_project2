@@ -26,16 +26,16 @@ const HamburgerMenu = () => {
         <ul className="flex flex-col p-4 space-y-4">
           <li className="relative border-b border-white/30 pb-2 group">
             <a
-              href="#"
+              href="/menetrendek"
               className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
               Menetrendek
             </a>
           </li>
           <li className="relative border-b border-white/30 pb-2 group">
             <a
-              href="#"
+              href="/gallery"
               className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
-              Galéria
+              Gallery
             </a>
           </li>
           <li className="relative border-b border-white/30 pb-2 group">
