@@ -13,8 +13,7 @@ const HamburgerMenu = () => {
     <div className="relative">
       <div
         className={`tham tham-e-squeeze tham-w-6 ${isOpen ? "tham-active" : ""} flex items-center justify-center absolute top-5 right-5 z-50`}
-        onClick={toggleMenu}
-      >
+        onClick={toggleMenu}>
         <div className="tham-box">
           <div className="tham-inner bg-white" />
         </div>
@@ -28,32 +27,28 @@ const HamburgerMenu = () => {
           <li className="relative border-b border-white/30 pb-2 group">
             <a
               href="#"
-              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300"
-            >
+              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
               Menetrendek
             </a>
           </li>
           <li className="relative border-b border-white/30 pb-2 group">
             <a
               href="#"
-              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300"
-            >
+              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
               Galéria
             </a>
           </li>
           <li className="relative border-b border-white/30 pb-2 group">
             <a
               href="#"
-              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300"
-            >
+              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
               GY.I.K.
             </a>
           </li>
           <li className="relative group">
             <a
               href="#"
-              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300"
-            >
+              className="text-white group-hover:text-transparent group-hover:bg-transparent group-hover:backdrop-blur-none group-hover:opacity-100 transition-all duration-300">
               Tájékoztatás
             </a>
           </li>
