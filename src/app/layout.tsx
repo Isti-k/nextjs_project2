@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="hu">
       <body className="min-h-screen bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: "url('/galaxy.jpg')" }}>
         <main >

@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import Hamburger from './hamburger-spin';
+
 
 
 function Navbar() {
   return (
-    <header className='bg-cover bg-center' >
+    <header className='bg-cover bg-center'>
         <nav className="flex justify-between items-center text-white backdrop-blur-sm bg-opacity-30 p-6 rounded-bl-3xl rounded-br-3xl overflow-hidden border-b border-white/30">
 
         <div className="flex">

@@ -2,7 +2,7 @@
 .solar_systm {
   transform-style: preserve-3d;
   pointer-events: none;
-  height: 100%;
+  height: 80%;
   position: absolute;
   left: 0;
   right: 0;
@@ -40,7 +40,7 @@ body .solar_systm .planet {
   height: 1200px;
   width: 1200px;
   border-radius: 600px;
-  background: red;
+  background: black;
   transition: transform 2.8s 0.23s cubic-bezier(0.33, 0, 0, 1), opacity 2s 0.8s, box-shadow 0s 0s;
   background-size: 1140px 910px !important;
   top: auto;
@@ -50,7 +50,7 @@ body .solar_systm .planet .moon {
   height: 200px;
   width: 200px;
   border-radius: 600px;
-  background: red;
+  background: black;
   position: absolute;
   text-align: center;
   color: white;
@@ -117,28 +117,11 @@ body input[type=radio][name=planet]::after {
 
 body {
   overflow: hidden;
-  background: black;
+  background: white;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
-body .logo {
-  color: white;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 4px;
-}
-body .logo span {
-  font-size: 12px;
-  color: #f39041;
-  display: block;
-}
+
 body label {
   cursor: pointer;
 }
@@ -264,31 +247,31 @@ body label.menu h3 {
   opacity: 0.3;
 }
 body label.menu:nth-of-type(1) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 1) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 1) + 0px - 369px );
 }
 body label.menu:nth-of-type(2) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 2) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 2) + 0px - 369px );
 }
 body label.menu:nth-of-type(3) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 3) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 3) + 0px - 369px );
 }
 body label.menu:nth-of-type(4) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 4) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 4) + 0px - 369px );
 }
 body label.menu:nth-of-type(5) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 5) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 5) + 0px - 369px );
 }
 body label.menu:nth-of-type(6) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 6) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 6) + 0px - 369px );
 }
 body label.menu:nth-of-type(7) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 7) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 7) + 0px - 369px );
 }
 body label.menu:nth-of-type(8) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 8) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 8) + 0px - 369px );
 }
 body label.menu:nth-of-type(9) {
-  top: calc( 50vh + 100px + ((14px + 34px) * 9) + 0px - 369px );
+  top: calc( 60vh + 100px + ((14px + 34px) * 9) + 0px - 369px );
 }
 body input.read {
   display: none;
@@ -343,7 +326,6 @@ body label.closeBig::after {
   transform: translateY(-50%);
 }
 body .overlay {
-  border-bottom: 1020px solid black;
   width: 1800px;
   height: 620px;
   top: auto;
@@ -353,7 +335,6 @@ body .overlay {
   opacity: 1;
   border-radius: 100%;
   z-index: 0;
-  box-shadow: 0px -190px 215px 110px black inset;
 }
 body input[type=radio][name=planet] {
   -webkit-appearance: none;
@@ -2208,7 +2189,7 @@ body .solar_systm .planet_description h2 {
 body .solar_systm .planet_description p {
   line-height: 26px;
   margin-top: 14px;
-  oapcity: 0.9;
+  opacity: 0.9;
   margin-bottom: 10px;
 }
 body .solar_systm .planet_description a {
@@ -2236,7 +2217,7 @@ body .panel {
   top: 0;
   height: 100vh;
   transition: all 0.2s;
-  color: black;
+  color: white;
   background: white;
   padding: 10px 60px 0px 60px;
   overflow: scroll;
@@ -2245,7 +2226,7 @@ body .panel body::-webkit-scrollbar {
   width: 1em;
 }
 body .panel body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px white;
 }
 body .panel body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
