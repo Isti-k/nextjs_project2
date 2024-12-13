@@ -2284,3 +2284,83 @@ body .panel p {
   font-size: 12px;
   line-height: 20px;
 }
+
+/* Reszponzív CSS mobil és tablet nézetekhez */
+
+/* Alapértelmezett reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigációs menü mobilnézethez */
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu {
+    margin: 0 10px;
+  }
+
+  .menu {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  
+}
+
+/* Bolygók elrendezése mobil/tablet nézetben */
+@media (max-width: 768px) {
+  .solar_systm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+
+  .planet {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0;
+  }
+
+  .planet-info {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .solar_systm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .planet {
+    width: 60px;
+    height: 60px;
+  }
+
+  .planet-info {
+    font-size: 12px;
+  }
+}
